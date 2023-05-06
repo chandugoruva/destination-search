@@ -4,8 +4,8 @@ import {Component} from 'react'
 import DestinationItem from '../DestinationItem'
 
 class DestinationSearch extends Component {
-  state: {
-    inputSearch: ' ',
+  state= {
+    inputSearch: '',
   }
 
   searchElement = event => {
